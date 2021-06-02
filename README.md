@@ -1,11 +1,10 @@
-<img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/techtheoryio/aws-profile-picker?color=gree">
-<a href="https://goreportcard.com/report/github.com/techtheoryio/aws-profile-picker"><img src="https://goreportcard.com/badge/github.com/techtheoryio/aws-profile-picker" alt="Version"></a>
-<a href="#"><img src="https://img.shields.io/github/go-mod/go-version/techtheoryio/aws-profile-picker" alt="Version"></a>
-
 <p align="center">
   <img width="600" src="./images/example.svg">
+  <br>
+  <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/techtheoryio/aws-profile-picker?color=gree">
+  <a href="https://goreportcard.com/report/github.com/techtheoryio/aws-profile-picker"><img src="https://goreportcard.com/badge/github.com/techtheoryio/aws-profile-picker" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/github/go-mod/go-version/techtheoryio/aws-profile-picker" alt="Version"></a>
 </p>
-
 
 # aws-profile-picker
 

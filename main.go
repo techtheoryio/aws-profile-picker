@@ -8,7 +8,7 @@ import (
 	"github.com/manifoldco/promptui"
 )
 
-var version string = "v1.0.5"
+var version string = "v1.0.6"
 
 func main() {
 	profiles, err := parseProfiles()

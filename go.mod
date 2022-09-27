@@ -1,6 +1,6 @@
 module github.com/techtheoryio/aws-profile-picker
 
-go 1.17
+go 1.19
 
 require (
 	github.com/lithammer/fuzzysearch v1.1.3

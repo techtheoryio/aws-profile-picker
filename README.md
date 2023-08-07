@@ -21,20 +21,34 @@
 3. `cd scripts`
 4. `sh ./install.sh`
 5. Add an alias to your shell configuration (.bshrc, .zshrc, etc.)
-    ```bash
-    alias awsp="source _awsp"
-    ```
-    This is required so no additional shell has to be created.
+   ```bash
+   alias awsp="source _awsp"
+   ```
+   This is required so no additional shell has to be created.
 
 ## Usage
 
-```shell
+Supplying no argument will open the interactive
+prompt.
+
+```bash
 $ awsp
+```
+
+Alternatively you can also directly pass a
+profile to search for as an argument. The profile
+that matches the argument the most using the Levinsthein
+algorithm will be set.
+If no profile is found, the prompt opens.
+
+```bash
+$ awsp client-proj
 ```
 
 ## Uninstall
 
 In the release archive, there's an uninstall script
+
 1. `cd scripts`
 2. `sh ./uninstall.sh`
 3. Remove the alias from your shell configuration file.

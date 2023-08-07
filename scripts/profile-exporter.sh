@@ -1,6 +1,6 @@
 #!/bin/sh
 
-aws-profile-picker
+aws-profile-picker $@
 
 selected_profile="$(cat $HOME/.aws-profile-picker)"
 
